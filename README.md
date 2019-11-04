@@ -1,4 +1,4 @@
-# ProgramacionParaPrincipiantes
+# 01 Programación Para Principiantes
 
 Programación para principiantes - primeros pasos
 
