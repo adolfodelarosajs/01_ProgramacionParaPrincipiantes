@@ -20,21 +20,21 @@ console.log( a );
 
 ## Instalaciones necesarias para seguir el curso                                                               04:08
 
-Instalar Google Chrome
+* Instalar Google Chrome
 
-Instalar [Visual Studio Code](https://code.visualstudio.com/)
+* Instalar [Visual Studio Code](https://code.visualstudio.com/)
 
-Instalar [Node](https://nodejs.org/es/)
+* Instalar [Node](https://nodejs.org/es/)
 
-Comprobar versión:
+   Comprobar versión:
 
-`node --version`
+   `node --version`
 
-Instalar [TypeScript](https://www.typescriptlang.org/)
+* Instalar [TypeScript](https://www.typescriptlang.org/)
 
-Comprobar versión:
+   Comprobar versión:
 
-`npm install -g typescript`
+   `npm install -g typescript`
 
 ## Ejecutando nuestro primer programa                                                                          03:45
 
