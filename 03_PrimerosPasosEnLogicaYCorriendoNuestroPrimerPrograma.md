@@ -20,7 +20,7 @@ console.log( a );
 
 ## Instalaciones necesarias para seguir el curso                                                               04:08
 
-* Instalar Google Chrome
+* Instalar [Google Chrome](https://www.google.com/intl/es_es/chrome/)
 
 * Instalar [Visual Studio Code](https://code.visualstudio.com/)
 
