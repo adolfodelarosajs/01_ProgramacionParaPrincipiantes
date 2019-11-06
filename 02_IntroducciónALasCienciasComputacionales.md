@@ -56,6 +56,7 @@ Ejemplos:
 * Swift
 * C#
 * PHP
+* JS
 
 **Servidor**: Computadora con acceso restringido y centralizado
 
