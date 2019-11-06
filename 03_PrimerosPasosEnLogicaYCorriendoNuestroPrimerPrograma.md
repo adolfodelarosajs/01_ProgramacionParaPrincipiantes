@@ -54,7 +54,7 @@ console.log(a);
 undefined
 ```
 
-NOTA: Cuando yo no inicializo el valor de una variable JS le asigna **undefined** (Aquí en la consola no sé por qué sale undefined)
+NOTA: Cuando yo no inicializo el valor de una variable JS le asigna **undefined**. La ejecucion de varias instrucciones retornan como resultado **undefined** por eso se muestra al ejecutar algunas instrucciones.
 
 La consola nos permite introducir código JS mientras vamos viendo lo que nos responde.
 
