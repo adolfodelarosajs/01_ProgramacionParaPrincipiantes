@@ -6,6 +6,8 @@
 
 ## Lógica para resolver problemas                                                                              05:32
 
+**Problema**: Tenemos el número 10 y deseamos tener un 20. Las soluciones son infinitas.
+
 **Algoritmo**: Es un proceso ordenado y secuencial para resolver un problema.
 
 **Variable**: Es el espacio en memoria donde podemos almacenar datos, estos datos pueden cambiar en el futuro.
