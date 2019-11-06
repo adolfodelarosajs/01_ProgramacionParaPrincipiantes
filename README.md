@@ -56,12 +56,12 @@ Espero verte dentro del curso!
 
 ## Contenido del curso                                                                           75 clases 05:35:07
 
-### Introducción al curso                                                                                     05:05
+## 01 Introducción al curso                                                                                   05:05
 * Introducción                                                                                                02:10
 * ¿Cómo funcionará este curso?                                                                                02:17
 * ¿Cómo realizar preguntas?                                                                                   00:38
 
-## Introducción a las ciencias computacionales                                                                23:03
+## 02 Introducción a las ciencias computacionales                                                             23:03
 * Introducción a la sección                                                                                   01:32
 * Conocimientos fundamentales sobre las computadoras                                                          03:28
 * Hardware y Software                                                                                         03:05
@@ -69,7 +69,7 @@ Espero verte dentro del curso!
 * Lenguajes y frameworks                                                                                      06:15
 * Intérpretes y Compiladores                                                                                  03:27
 
-## Primeros pasos en lógica y corriendo nuestro primer programa                                               37:09
+## 03 Primeros pasos en lógica y corriendo nuestro primer programa                                            37:09
 * Introducción a la sección                                                                                   02:09
 * Lógica para resolver problemas                                                                              05:32
 * Instalaciones necesarias para seguir el curso                                                               04:08
@@ -79,7 +79,7 @@ Espero verte dentro del curso!
 * Problema: Convertir de grados Fahrenheit a Celsius                                                          04:01
 * Tarea y resolución de la conversión                                                                         05:05
 
-## Tipos de datos y flujo de control                                                                       01:09:56
+## 04 Tipos de datos y flujo de control                                                                    01:09:56
 * Introducción a la sección                                                                                   01:48
 * Reglas para nombrar variables y constantes                                                                  09:01
 * Tipos de datos                                                                                              02:57
@@ -93,7 +93,7 @@ Espero verte dentro del curso!
 * Ejercicio práctico - ciclo for                                                                              08:17
 * Código fuente de la sección                                                                                 00:18
 
-## Funciones y arreglos                                                                                       33:50
+## 05 Funciones y arreglos                                                                                    33:50
 * Introducción a la sección                                                                                   01:07
 * Explicación sobre las funciones                                                                             04:26
 * Ejercicio básico de funciones                                                                               04:52
@@ -104,7 +104,7 @@ Espero verte dentro del curso!
 * Ejercicio sobre arreglos #2                                                                                 04:13
 * Códigos fuente hasta el momento                                                                             00:06
 
-## Objetos y Clases                                                                                           46:45
+## 06 Objetos y Clases                                                                                        46:45
 * Introducción a la sección                                                                                   01:35
 * Explicación sobre objetos                                                                                   02:57
 * Ejercicio práctico sobre objetos                                                                            07:12
@@ -114,7 +114,7 @@ Espero verte dentro del curso!
 * Métodos de clase                                                                                            13:04
 * Código fuente de la sección                                                                                 00:16
 
-## Ejercicios de programación - lógica                                                                        43:21
+## 07 Ejercicios de programación - lógica                                                                     43:21
 * Introducción a la sección                                                                                   01:50
 * Material de la sección                                                                                      01:41
 * 1- Convertir de Libras a Kilogramos                                                                         05:05
@@ -128,7 +128,7 @@ Espero verte dentro del curso!
 * 9- Función para filtrar nombres                                                                             06:57
 * Códigos fuente hasta el momento                                                                             00:17
 
-## Creación de un juego de ahorcado                                                                        01:12:53
+## 08 Creación de un juego de ahorcado                                                                     01:12:53
 * Introducción a la sección                                                                                   01:59
 * Demostración de lo que realizaremos al final de la sección                                                  01:40
 * Etiquetas comunes del HTML                                                                                  00:07
@@ -145,6 +145,6 @@ Espero verte dentro del curso!
 * Mostrar mensaje de victoria o derrota                                                                       05:11
 * Códigos fuente de todo el curso                                                                             00:12
 
-## Fin del curso                                                                                              03:07
+## 09 Fin del curso                                                                                           03:07
 * Más sobre mis cursos                                                                                        00:33
 * Cierre del curso                                                                                            02:34
