@@ -48,6 +48,15 @@ Ejemplos:
 * Windows
 * WWW
 
+**Lenguajes**: Nos permiten desarrollar las aplicaciones para las diferentes plataformas.
+
+Ejemplos:
+
+* Java
+* Swift
+* C#
+* PHP
+
 **Servidor**: Computadora con acceso restringido y centralizado
 
 **Framework o Marco de Trabajo**: Conjunto de reglas y normas para la correcta utilización del lenguaje.
