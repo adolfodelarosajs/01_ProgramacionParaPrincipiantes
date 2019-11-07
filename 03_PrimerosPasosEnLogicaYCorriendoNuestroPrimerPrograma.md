@@ -41,6 +41,7 @@ console.log( a );
 Abrir **Google Chrome** y presionar **F12** para abrir las **Herramientas del Desarrollador**.
 
 **Primera forma de ejecutar código JS**
+
 Ir a la pestaña **Consola** y escribir el siguiente código:
 
 ```
@@ -68,6 +69,7 @@ Usando VSC, vamos a crear la carpeta **Seccion03** y dentro el archivo **app.js*
 Ya tenemos nuestro archivo JS, para ejecutarlo existen varias formas, en este caso lo ejecutaremos en la consola.
 
 **Segunda forma de ejecutar código JS**
+
 Usando la consola de VSC, Git Bash o la consola de Windows y estando dentro de la carpeta **Seccion03** ejecutamos el comando:
 
 ```
@@ -97,6 +99,7 @@ En nuestra carpeta **Seccion03** vamos a crear el archivo **index.html** con el 
 Y abrimos el archivo **index.html** con **Google Chrome**, vemos nuestro mensaje en el navegador.
 
 **Tercera forma de ejecutar código JS**
+
 Si también quisiera ver el mensaje en la consola del navegador tengo que hacer que se ejecute el js desde mi html y esto lo hago así:
 
 ```
