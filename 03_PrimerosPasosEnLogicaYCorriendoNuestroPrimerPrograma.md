@@ -117,7 +117,7 @@ Si también quisiera ver el mensaje en la consola del navegador tengo que hacer 
 
 La fórmula para hacer la conversión es la siguiente:
 
-	C = ( F - 32 ) * 5/9
+	C = ( F - 32 ) * ( 5 / 9 )
 
 ## Tarea y resolución de la conversión                                                                         05:05
 
@@ -144,7 +144,7 @@ Crear archivos **FahrenheitCelsius.html** y **FahrenheitCelsius.js** para resolv
 /*
 Convertir de grados Fahrenheit a Celsius
 La formula para hacer la conversión es la siguiente:
-    C = ( F - 32 ) * 5/9   
+    C = ( F - 32 ) * ( 5 / 9 )   
 */
 
 let celcius;
