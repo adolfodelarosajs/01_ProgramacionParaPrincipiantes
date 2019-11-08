@@ -52,7 +52,7 @@ let nombreCompleto;
 let direccionCasa;
 ```
 
-Existe dos tipos de CamelCase:
+Existe dos tipos de **camelCase**:
 
 * lowerCamelCase, para nombres de variables
 * UpperCamelCase, para nombres de clases.
