@@ -45,7 +45,7 @@ let año; //incorrecto
 
 * Los nombres de las variables y constantes, deben de tener un nombre significativo de lo que almacenán.
 
-* Usar notación CamelCase:
+* Usar notación camelCase:
 
 ```
 let nombreCompleto;
