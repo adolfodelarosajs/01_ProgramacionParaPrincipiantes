@@ -54,8 +54,8 @@ let direccionCasa;
 
 Existe dos tipos de **camelCase**:
 
-* lowerCamelCase, para nombres de variables
-* UpperCamelCase, para nombres de clases.
+* **lowerCamelCase**, para nombres de variables
+* **UpperCamelCase**, para nombres de clases.
 
 ## Tipos de datos                                                                                              02:57
 
