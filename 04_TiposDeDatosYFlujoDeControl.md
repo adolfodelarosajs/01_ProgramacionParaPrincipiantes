@@ -63,7 +63,7 @@ Existe dos tipos de **camelCase**:
 
 ```
 let promedioNotas = 85;
-let promedioNotas : number = 85;
+let promedioNotas : number = 85;  //TypeScript
 ```
 
 * String
@@ -71,7 +71,7 @@ let promedioNotas : number = 85;
 ```
 let nombre = 'Pepito el de los cuentos';
 let nombre = "Pepito el de los cuentos";
-let nombre : string = "Pepito el de los cuentos";
+let nombre : string = "Pepito el de los cuentos"; //TypeScript
 ```
 
 * Boolean
@@ -79,13 +79,18 @@ let nombre : string = "Pepito el de los cuentos";
 ```
 let activo = true;
 let enfermo = false;
-let trabajador : boolean = true;
-let noActivo = false;	// No se lee muy bien
+let trabajador : boolean = true; //TypeScript
 ```
 
 **Recomendación**: El nombre para una variable de tipo booleana debe de leerse en positivo.
 
+```
+noActivo = false;	// No se lee muy bien
+```
+
 ## Ejemplo práctico de tipos de datos                                                                          08:58
+
+JavaScript infiere el tipo de dato según el valor asignado.
 
 ```
 let nombre = 'Adolfo';
