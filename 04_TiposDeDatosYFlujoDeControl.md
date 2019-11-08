@@ -1,24 +1,10 @@
 # 04 Tipos de datos y flujo de control                                                                      01:09:56
 ## Introducción a la sección                                                                                   01:48
-## Reglas para nombrar variables y constantes                                                                  09:01
-## Tipos de datos                                                                                              02:57
-## Ejemplo práctico de tipos de datos                                                                          08:58
-## Estructuras de control - decisiones                                                                         03:57
-## Ejemplo práctico de estructuras de control - IF                                                             11:50
-## If else anidado                                                                                             06:02
-## Switch                                                                                                      06:17
-## Ciclos o loops                                                                                              03:01
-## Ejercicio práctico - ciclo while                                                                            07:30
-## Ejercicio práctico - ciclo for                                                                              08:17
-## Código fuente de la sección                                                                                 00:18
-
-# Tipos de datos y flujo de control
-
-## Introducción a la sección
 
 :+1:
 
-## Reglas para nombrar variables y constantes
+## Reglas para nombrar variables y constantes                                                                  09:01
+
 
 1. No podemos darle el nombre a una variable o constante, igual a una palabra reservada del lenguaje de programación.
 
@@ -71,7 +57,7 @@ Existe dos tipos de CamelCase:
 * lowerCamelCase, para nombres de variables
 * UpperCamelCase, para nombres de clases.
 
-## Tipos de datos
+## Tipos de datos                                                                                              02:57
 
 * Number
 
@@ -95,12 +81,11 @@ let activo = true;
 let enfermo = false;
 let trabajador : boolean = true;
 let noActivo = false;	// No se lee muy bien
-```		
+```
 
 **Recomendación**: El nombre para una variable de tipo booleana debe de leerse en positivo.
 
-## Ejemplo práctico de tipos de datos
-
+## Ejemplo práctico de tipos de datos                                                                          08:58
 
 ```
 let nombre = 'Adolfo';
@@ -132,7 +117,7 @@ console.log(activo1 + despedido1); // Imprime truefalse
 
 ```
 
-## Estructuras de control - decisiones
+## Estructuras de control - decisiones                                                                         03:57
 
 **Estructuras de Control**: Nos permiten poder decirle a la computadora, que acción tomar y qué camino seguir dependiendo de condiciones y/o decisiones.
 
@@ -165,7 +150,7 @@ SWITCH(VARIABLE O EXPRESIÓN A EVALUAR)
 	DEFAULT: 'Hoy empieza el fin de semana...' 
 ```
 
-## Ejemplo práctico de estructuras de control - IF
+## Ejemplo práctico de estructuras de control - IF                                                             11:50
 
 ```
 /*
@@ -185,8 +170,7 @@ if(nota >= 60) {
 }
 ```
 
-## If else anidado
-
+## If else anidado                                                                                             06:02
 
 ```
 /*
@@ -234,7 +218,7 @@ if(nota >= 90) {
 console.log('La nota es ' + nota + ', equivale a una ' + notaLetra);
 ```
 
-## Switch
+## Switch                                                                                                      06:17
 
 ```
 let dia = 5; // 0=domingo, 1=lunes, 2=martes...
@@ -266,7 +250,7 @@ switch ( dia ){
 }
 ```
 
-## Ciclos o loops
+## Ciclos o loops                                                                                              03:01
 
 Nos permiten ejecutar las mismas líneas de código una y otra vez de forma consecutiva.
 
@@ -290,8 +274,7 @@ for( let variable=1; variable <= 10; variable++){
 }
 ```
 
-
-## Ejercicio práctico - ciclo while
+## Ejercicio práctico - ciclo while                                                                            07:30
 
 ```
 let gasolina = 100;
@@ -306,7 +289,7 @@ while (gasolina > 0){
 console.log('Tanque vacío!!!');
 ```
 
-## Ejercicio práctico - ciclo for
+## Ejercicio práctico - ciclo for                                                                              08:17
 
 ```
 // Imprimir la tabla de base
@@ -322,6 +305,5 @@ for (let i = 1; i <= limite; i++){
 
 ```
 
-## Código fuente de la sección
-
+## Código fuente de la sección                                                                                 00:18
 :+1:
