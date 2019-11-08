@@ -162,20 +162,21 @@ switch(VARIABLE O EXPRESIÓN A EVALUAR)
 ## Ejemplo práctico de estructuras de control - IF                                                             11:50
 
 ```
-/*
-Crear un programa que, basado en la calificación de un alumno,
-imprima si aprueba o no la materia.
-Aprueba a partir de 60, si tiene nota menor de 50, imprimir el mensaje "Por favor estudie más"
-*/
+// Crear un algoritmo, que basado en la nota
+// imprima si el alumno aprueba la materia
+// aprueba 60
+// Si el alumno tiene menos de 50
+// mostrar por favor estudie más
 
-let nota = 40;
 
-if(nota >= 60) {
-  console.log('La nota es ' + nota + ', el alumno aprueba la asignatura');
-} else if(nota > 50) {
-    console.log('La nota es ' + nota + ', el alumno NO aprueba la asignatura');
-} else {
-  console.log('La nota es ' + nota + ', por favor estudie más!!!');
+let nota = 55;
+
+if(nota >= 60){
+    console.log('El alumno aprueba la clase');
+}else if(nota >=50){
+    console.log('El alumno NO aprueba la clase');
+}else{
+    console.log('El alumno NO aprueba la clase, por favor estudie más');
 }
 ```
 
