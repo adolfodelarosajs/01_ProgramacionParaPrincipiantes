@@ -126,33 +126,37 @@ console.log(activo1 + despedido1); // Imprime truefalse
 
 **Estructuras de Control**: Nos permiten poder decirle a la computadora, que acción tomar y qué camino seguir dependiendo de condiciones y/o decisiones.
 
-1. **IF**, si se cumple una condición realiza ciertas tareas y si no se cumple puede realizar otras tareas diferentes:
+1. **if**, si se cumple una condición realiza ciertas tareas y si no se cumple puede realizar otras tareas diferentes:
 
 ```
-IF (CONDICON){
-	.....
+if (CONDICON){
+  .....
 }
 
-IF (CONDICON){
-	.....
-} ELSE {
-	.....
+if (CONDICON){
+  .....
+} else {
+  .....
 }
 ```
 
-El if y else se pueden anidar, es decir en una condición if podemos realizar otro if else y así sucesivamente sin límite.
+El `if` y `else` se pueden anidar, es decir en una condición `if` podemos realizar otro `if else` y así sucesivamente sin límite.
 
-2. **SWITCH**, permite realizar múltiples decisiones de forma limpia y eficiente:
+2. **switch**, permite realizar múltiples decisiones de forma limpia y eficiente:
 
 ```
-SWITCH(VARIABLE O EXPRESIÓN A EVALUAR)
-	CASE 1: 'Hoy es lunes';
-		BREAK;
-	CASE 2: 'Hoy es martes';
-		BREAK;
-	CASE 3: 'Hoy es miércoles';
-		BREAK;
-	DEFAULT: 'Hoy empieza el fin de semana...' 
+switch(VARIABLE O EXPRESIÓN A EVALUAR)
+  case 1: 
+    'Hoy es lunes';
+    break;
+  case 2: 
+     'Hoy es martes';
+     break;
+  case 3: 
+    'Hoy es miércoles';
+    break;
+  default: 
+    'Hoy empieza el fin de semana...' 
 ```
 
 ## Ejemplo práctico de estructuras de control - IF                                                             11:50
