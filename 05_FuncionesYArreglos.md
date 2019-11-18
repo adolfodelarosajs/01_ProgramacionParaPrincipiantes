@@ -9,9 +9,9 @@
 
 ```
 function saludar(){
-	.....
-	.....
-	.....
+   .....
+   .....
+   .....
 }
 ```
 
@@ -19,9 +19,9 @@ Las funciones pueden recibir parámetros (valores que se le envían a la funció
 
 ```
 function saludar(nombre){
-	.....
-	.....
-	.....
+   .....
+   .....
+   .....
 }
 ```
 
@@ -29,12 +29,12 @@ Una función también puede retornar un valor:
 
 ```
 function sumar(a,b){
-	return a + b;
+   return a + b;
 }
 
 let suma = sumar(10, 20); //Retorna 30
 
-console.log("Suma = " + suma);
+console.log("Suma = " + suma); //Suma = 30
 ```
 
 ## Ejercicio básico de funciones                                                                               04:52
@@ -42,12 +42,12 @@ console.log("Suma = " + suma);
 ```js
 // Función sumar
 function sumar(a, b){
-	return a + b;
+   return a + b;
 }
 
 let suma = sumar(10, 20);
 
-console.log("La suma de 10 + 20 = " + suma);
+console.log("La suma de 10 + 20 = " + suma); //La suma de 10 + 20 = 30
 ```
 
 ## Separando código en funciones                                                                               08:36
@@ -56,10 +56,10 @@ console.log("La suma de 10 + 20 = " + suma);
 // Función que calcula la tabla de multiplicación
 function tablaMultiplicacion(base, limite) {
 
-	for (let i = 1; i <= limite; i++){
-	  let resultado = 2 *i;
-	  console.log(base + ' X ' + i + " = " + base * i);
-	}
+   for (let i = 1; i <= limite; i++){
+      let resultado = 2 *i;
+      console.log(base + ' X ' + i + " = " + base * i);
+   }
 }
 
 tablaMultiplicacion(9, 10);
