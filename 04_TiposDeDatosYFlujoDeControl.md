@@ -38,16 +38,12 @@ let ca$a; //correcto
 let año; //incorrecto
 ```
 **Recomendaciones**: 
-
 * Los nombres de las variables y constantes, deben de tener un nombre significativo de lo que almacenán.
-
 * Usar notación camelCase:
-
 ```
 let nombreCompleto;
 let direccionCasa;
 ```
-
 Existe dos tipos de **camelCase**:
 
 * **lowerCamelCase**, para nombres de variables
