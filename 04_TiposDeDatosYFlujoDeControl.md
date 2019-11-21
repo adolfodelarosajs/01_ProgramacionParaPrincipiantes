@@ -150,6 +150,8 @@ El `if` y `else` se pueden anidar, es decir en una condición `if` podemos reali
 
 ```js
 switch(VARIABLE O EXPRESIÓN A EVALUAR)
+```
+```js
   case 1: 
     'Hoy es lunes';
     break;
