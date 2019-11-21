@@ -58,11 +58,11 @@ Ejemplos:
 * PHP
 * JS
 
-**Servidor**: Computadora con acceso restringido y centralizado
-
 **Framework o Marco de Trabajo**: Conjunto de reglas y normas para la correcta utilización del lenguaje.
 
-**Cliente**: Computadora que ejecuta el programa.
+**Cliente**: Computadora que ejecuta el programa. Puede ser un navegador, un movil, una herramienta.
+
+**Servidor**: Computadora con acceso restringido y centralizado, generalmente invocada por el Cliente.
 
 ## Intérpretes y Compiladores                                                                                  03:27
 
