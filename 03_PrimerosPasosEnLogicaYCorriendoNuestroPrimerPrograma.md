@@ -22,12 +22,13 @@ Pero siempre esta en juego cual es más eficiente.
 ### Declaración de una variable en JS
 
 Para declarar una variable usamos la palabra reservada **let**:
-
-`let a = 10;`
+```js
+let a = 10;
+```
 
 Para resolver el problema planteado inicialmente podemos escribir el siguiente programa en JS:
 
-```
+```js
 let a = 10;
 a = a + 10; //El valor de a es 20
 console.log( a );
@@ -65,7 +66,7 @@ Abrir **Google Chrome** y presionar **F12** para abrir las **Herramientas del De
 
 Ir a la pestaña **Console** y escribir el siguiente código:
 
-```
+```js
 > let a = 10;
 < undefined
 > a
@@ -106,7 +107,7 @@ Nos aparece en la consola el mensaje que codificamos. Si tuviéramos un error se
 
 En nuestra carpeta **Seccion03** vamos a crear el archivo **index.html** con el siguiente código:
 
-```
+```html
 <html>
     <head>
 
@@ -123,7 +124,7 @@ Y abrimos el archivo **index.html** con **Google Chrome**, vemos nuestro mensaje
 
 Si también quisiera ver el mensaje en la consola del navegador tengo que hacer que se ejecute el js desde mi html y esto lo hago así:
 
-```
+```html
 <html>
     <head>
 
@@ -153,7 +154,7 @@ Crear archivos **FahrenheitCelsius.html** y **FahrenheitCelsius.js** para resolv
 
 **FahrenheitCelsius.html**
 
-```
+```html
 <html>
     <head>
 
@@ -170,7 +171,7 @@ Crear archivos **FahrenheitCelsius.html** y **FahrenheitCelsius.js** para resolv
 
 **FahrenheitCelsius.js**
 
-```
+```js
 /*
 Convertir de grados Fahrenheit a Celsius
 La formula para hacer la conversión es la siguiente:
