@@ -7,7 +7,7 @@
 
 **Función**: Una función es un conjunto de líneas de código que realizan una tarea específica y pueden retornar algo, ayudan a no repetir código.
 
-```
+```js
 function saludar(){
    .....
    .....
@@ -17,7 +17,7 @@ function saludar(){
 
 Las funciones pueden recibir parámetros (valores que se le envían a la función):
 
-```
+```js
 function saludar(nombre){
    .....
    .....
@@ -27,7 +27,7 @@ function saludar(nombre){
 
 Una función también puede retornar un valor, usando la palabra `return`:
 
-```
+```js
 function sumar(a,b){
    return a + b;
 }
@@ -134,14 +134,17 @@ Un arreglo es un conjunto de cosas similares.
 
 **Arreglo vació**
 
-`let flores = [];`
+```js
+let flores = [];
+```
 
 **Arreglo de Strings**
-
-`let flores = ["Rosa", "Girasol", "Lirio"];`
+```js
+let flores = ["Rosa", "Girasol", "Lirio"];
+```
 
 **Extraer elementos del arreglo**
-```
+```js
 let primerFlor  = flores[0]; //Rosa
 let segundaFlor = flores[1]; //Girasol
 let ultimaFlor  = flores[2]; //Lirio
