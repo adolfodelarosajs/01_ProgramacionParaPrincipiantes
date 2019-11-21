@@ -292,7 +292,7 @@ El día 9 es indeterminado....
 
 Nos permiten ejecutar las mismas líneas de código una y otra vez de forma consecutiva.
 
-1. **WHILE**: Muy útil cuando no sabemos exactamente la cantidad de veces que necesitamos ejecutar el código.
+1. **while**: Muy útil cuando no sabemos exactamente la cantidad de veces que necesitamos ejecutar el código.
 
 ```
 while(CONDICION){
@@ -300,7 +300,7 @@ while(CONDICION){
 }
 ```
 
-2. **FOR**: Muy útil cuando sabemos exactamente la cantidad de veces que necesitamos ejecutar el código.
+2. **for**: Muy útil cuando sabemos exactamente la cantidad de veces que necesitamos ejecutar el código.
 
 ```
 for(let variable = valorInicial; condición; incrementar variable){
@@ -315,7 +315,9 @@ for( let variable=1; variable <= 10; variable++){
 ## Ejercicio práctico - ciclo while                                                                            07:30
 
 ```
-let gasolina = 100;
+//Determinar si el tanque de gasolina esta vació.
+
+let gasolina = 5;
 
 while (gasolina > 0){
   console.log('Gasolina restante: ' + gasolina);
@@ -325,6 +327,15 @@ while (gasolina > 0){
 }
 
 console.log('Tanque vacío!!!');
+```
+Salida:
+```
+Gasolina restante: 5
+Gasolina restante: 4
+Gasolina restante: 3
+Gasolina restante: 2
+Gasolina restante: 1
+Tanque vacío!!!
 ```
 
 ## Ejercicio práctico - ciclo for                                                                              08:17
@@ -337,10 +348,17 @@ let base= 9;
 let limite = 5;
 
 for (let i = 1; i <= limite; i++){
-  let resultado = 2 *i;
+  let resultado = 2 * i;
   console.log(base + ' X ' + i + " = " + base * i);
 }
-
+```
+Salida:
+```
+9 X 1 = 9
+9 X 2 = 18
+9 X 3 = 27
+9 X 4 = 36
+9 X 5 = 45
 ```
 
 ## Código fuente de la sección                                                                                 00:18
