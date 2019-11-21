@@ -149,9 +149,7 @@ El `if` y `else` se pueden anidar, es decir en una condición `if` podemos reali
 2. **switch**, permite realizar múltiples decisiones de forma limpia y eficiente:
 
 ```js
-switch(VARIABLE O EXPRESIÓN A EVALUAR)
-```
-```js
+switch(VARIABLE O EXPRESIÓN A EVALUAR){
   case 1: 
     'Hoy es lunes';
     break;
@@ -162,7 +160,8 @@ switch(VARIABLE O EXPRESIÓN A EVALUAR)
     'Hoy es miércoles';
     break;
   default: 
-    'Hoy es el mejor día de la semana...' 
+    'Hoy es el mejor día de la semana...'
+}
 ```
 
 ## Ejemplo práctico de estructuras de control - if                                                             11:50
