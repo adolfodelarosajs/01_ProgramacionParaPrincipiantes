@@ -24,15 +24,11 @@ let nombre@; //incorrecto
 let _; //correcto
 ```
 3. No puede contener caracteres especiales como:
-
 ```
-
 @ 	( 	~	# 	á	é	í	ó	ú	ñ	...
-
 ```
 
 El **signo de dolar ($)** es permitido en el nombre de una variable.
-
 ```
 let $hola; //correcto
 let hol@; //incorrecto
