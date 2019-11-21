@@ -8,14 +8,14 @@
 
 1. No podemos darle el nombre a una variable o constante, igual a una palabra reservada del lenguaje de programación.
 
-```
+```js
 let let = 20;  //error
 let letra = 20; //correcto
 ```
 
 2. Puedes usar letras, números y guión bajo para definir tus variables y constantes. El nombre debe iniciar con una letra o guión bajo, el nombre de la variable no puede iniciar con un número.
 
-```
+```js
 let nombre1; //correcto
 let nombre1_; //correcto
 let _nombre1; //correcto
@@ -29,7 +29,7 @@ let _; //correcto
 ```
 
 El **signo de dolar ($)** es permitido en el nombre de una variable.
-```
+```js
 let $hola; //correcto
 let hol@; //incorrecto
 let adiós; //incorrecto
@@ -40,7 +40,7 @@ let año; //incorrecto
 **Recomendaciones**: 
 * Los nombres de las variables y constantes, deben de tener un nombre significativo de lo que almacenán.
 * Usar notación **camelCase**:
-```
+```js
 let nombreCompleto;
 let direccionCasa;
 ```
@@ -52,18 +52,18 @@ Existe dos tipos de **camelCase**:
 ## Tipos de datos                                                                                              02:57
 
 * Number
-```
+```js
 let promedioNotas = 85;
 let promedioNotas : number = 85;  //TypeScript
 ```
 * String
-```
+```js
 let nombre = 'Pepito el de los cuentos';
 let nombre = "Pepito el de los cuentos";
 let nombre : string = "Pepito el de los cuentos"; //TypeScript
 ```
 * Boolean
-```
+```js
 let activo = true;
 let enfermo = false;
 let trabajador : boolean = true; //TypeScript
@@ -71,7 +71,7 @@ let trabajador : boolean = true; //TypeScript
 
 **Recomendación**: El nombre para una variable de tipo booleana debe de leerse en positivo.
 
-```
+```js
 let noActivo = false;	// No se lee muy bien
 ```
 
@@ -79,7 +79,7 @@ let noActivo = false;	// No se lee muy bien
 
 JavaScript infiere el tipo de dato según el valor asignado.
 
-```
+```js
 let nombre = 'Adolfo';
 let apellido = 'De la Rosa';
 
@@ -122,7 +122,7 @@ truefalse
 
 1. **if**, **if-else**, **if-else if** si se cumple una condición realiza ciertas tareas y si no se cumple puede realizar otras tareas diferentes:
 
-```
+```js
 if (CONDICON){
   .....
 }
@@ -148,7 +148,7 @@ El `if` y `else` se pueden anidar, es decir en una condición `if` podemos reali
 
 2. **switch**, permite realizar múltiples decisiones de forma limpia y eficiente:
 
-```
+```js
 switch(VARIABLE O EXPRESIÓN A EVALUAR)
   case 1: 
     'Hoy es lunes';
@@ -165,7 +165,7 @@ switch(VARIABLE O EXPRESIÓN A EVALUAR)
 
 ## Ejemplo práctico de estructuras de control - if                                                             11:50
 
-```
+```js
 // Crear un programa, que basado en la nota imprima si el alumno aprueba la materia, aprueba con 60 ó más.
 // Si el alumno tiene menos de 50 mostrar "por favor estudie más"
 
@@ -194,7 +194,7 @@ El alumno NO aprueba la clase, por favor estudie más
 
 ## if else anidado                                                                                             06:02
 
-```
+```js
 /*
   Cree un algoritmo que permita determinar 
   la calificación de un alumno en letras.
@@ -251,7 +251,7 @@ La nota es 59, equivale a una F
 
 ## Switch                                                                                                      06:17
 
-```
+```js
 // Determinar día de la semana de acuerdo a la siguiente relación: 0=domingo, 1=lunes, 2=martes...6=sabado
 let dia = 5; 
 
@@ -294,7 +294,7 @@ Nos permiten ejecutar las mismas líneas de código una y otra vez de forma cons
 
 1. **while**: Muy útil cuando no sabemos exactamente la cantidad de veces que necesitamos ejecutar el código.
 
-```
+```js
 while(CONDICION){
 	.....
 }
@@ -302,7 +302,7 @@ while(CONDICION){
 
 2. **for**: Muy útil cuando sabemos exactamente la cantidad de veces que necesitamos ejecutar el código.
 
-```
+```js
 for(let variable = valorInicial; condición; incrementar variable){
 	.....
 }
@@ -314,7 +314,7 @@ for( let variable=1; variable <= 10; variable++){
 
 ## Ejercicio práctico - ciclo while                                                                            07:30
 
-```
+```js
 //Determinar si el tanque de gasolina esta vació.
 
 let gasolina = 5;
@@ -340,7 +340,7 @@ Tanque vacío!!!
 
 ## Ejercicio práctico - ciclo for                                                                              08:17
 
-```
+```js
 // Imprimir la tabla de base
 let base= 9;
 
