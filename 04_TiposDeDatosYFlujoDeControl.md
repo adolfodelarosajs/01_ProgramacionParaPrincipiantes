@@ -52,22 +52,17 @@ Existe dos tipos de **camelCase**:
 ## Tipos de datos                                                                                              02:57
 
 * Number
-
 ```
 let promedioNotas = 85;
 let promedioNotas : number = 85;  //TypeScript
 ```
-
 * String
-
 ```
 let nombre = 'Pepito el de los cuentos';
 let nombre = "Pepito el de los cuentos";
 let nombre : string = "Pepito el de los cuentos"; //TypeScript
 ```
-
 * Boolean
-
 ```
 let activo = true;
 let enfermo = false;
@@ -77,7 +72,7 @@ let trabajador : boolean = true; //TypeScript
 **Recomendación**: El nombre para una variable de tipo booleana debe de leerse en positivo.
 
 ```
-noActivo = false;	// No se lee muy bien
+let noActivo = false;	// No se lee muy bien
 ```
 
 ## Ejemplo práctico de tipos de datos                                                                          08:58
@@ -111,14 +106,21 @@ let activo1 = 'true';
 let despedido1 = false;
 
 console.log(activo1 + despedido1); // Imprime truefalse
-
+```
+Salida:
+```
+Nombre Completo: Adolfo De la Rosa
+1020
+30
+1
+truefalse
 ```
 
 ## Estructuras de control - decisiones                                                                         03:57
 
 **Estructuras de Control**: Nos permiten poder decirle a la computadora, que acción tomar y qué camino seguir dependiendo de condiciones y/o decisiones.
 
-1. **if**, si se cumple una condición realiza ciertas tareas y si no se cumple puede realizar otras tareas diferentes:
+1. **if**, **if-else**, **if-else if** si se cumple una condición realiza ciertas tareas y si no se cumple puede realizar otras tareas diferentes:
 
 ```
 if (CONDICON){
@@ -126,6 +128,16 @@ if (CONDICON){
 }
 
 if (CONDICON){
+  .....
+} else {
+  .....
+}
+
+if (CONDICON){
+  .....
+else if (CONDICON){
+  .....
+else if (CONDICON){
   .....
 } else {
   .....
@@ -148,20 +160,17 @@ switch(VARIABLE O EXPRESIÓN A EVALUAR)
     'Hoy es miércoles';
     break;
   default: 
-    'Hoy empieza el fin de semana...' 
+    'Hoy es el mejor día de la semana...' 
 ```
 
-## Ejemplo práctico de estructuras de control - IF                                                             11:50
+## Ejemplo práctico de estructuras de control - if                                                             11:50
 
 ```
-// Crear un algoritmo, que basado en la nota
-// imprima si el alumno aprueba la materia
-// aprueba 60
-// Si el alumno tiene menos de 50
-// mostrar por favor estudie más
-
+// Crear un programa, que basado en la nota imprima si el alumno aprueba la materia, aprueba con 60 ó más.
+// Si el alumno tiene menos de 50 mostrar "por favor estudie más"
 
 let nota = 55;
+console.log("Nota: " + nota);
 
 if(nota >= 60){
     console.log('El alumno aprueba la clase');
@@ -171,8 +180,19 @@ if(nota >= 60){
     console.log('El alumno NO aprueba la clase, por favor estudie más');
 }
 ```
+Salida:
+```
+Nota: 55
+El alumno NO aprueba la clase
 
-## If else anidado                                                                                             06:02
+Nota: 65
+El alumno aprueba la clase
+
+Nota: 45
+El alumno NO aprueba la clase, por favor estudie más
+```
+
+## if else anidado                                                                                             06:02
 
 ```
 /*
@@ -184,7 +204,6 @@ if(nota >= 60){
   Si la nota se encuentra entre 70 a  79 = C
   Si la nota se encuentra entre 60 a  69 = D
   Si la nota es inferior a 60 = F
-
 */
 
 let nota = 90;
@@ -204,8 +223,7 @@ if(nota >= 90 && nota <= 100) {
 
 console.log('La nota es ' + nota + ', equivale a una ' + notaLetra);
 
-
-// Otra forma más reducida es
+// Otra forma más reducida es, usando solo el límite inferior
 if(nota >= 90) {
   notaLetra = 'A';
 } else if(nota >= 80) {
@@ -219,37 +237,55 @@ if(nota >= 90) {
 }
 console.log('La nota es ' + nota + ', equivale a una ' + notaLetra);
 ```
+Salida:
+```
+La nota es 90, equivale a una A
+La nota es 90, equivale a una A
+
+La nota es 77, equivale a una C
+La nota es 77, equivale a una C
+
+La nota es 59, equivale a una F
+La nota es 59, equivale a una F
+```
 
 ## Switch                                                                                                      06:17
 
 ```
-let dia = 5; // 0=domingo, 1=lunes, 2=martes...
+// Determinar día de la semana de acuerdo a la siguiente relación: 0=domingo, 1=lunes, 2=martes...6=sabado
+let dia = 5; 
 
 switch ( dia ){
   case 0:
-        console.log('Es domingo');
-        break;
+      console.log('El día ' + dia +  ' es domingo');
+      break;
   case 1:
-      console.log('Es lunes');
+      console.log('El día ' + dia + ' es lunes');
       break;
   case 2:
-      console.log('Es martes');
+      console.log('El día ' + dia + ' es martes');
       break;
   case 3:
-      console.log('Es miércoles');
+      console.log('El día ' + dia + ' es miércoles');
       break;
   case 4:
-      console.log('Es jueves');
+      console.log('El día ' + dia + ' es jueves');
       break;
   case 5:
-      console.log('Es viernes');
+      console.log('El día ' + dia + ' es viernes');
       break;
   case 6:
-      console.log('Es sabado');
-      break;
+      console.log('El día ' + dia + ' es sabado');
   default:
-      console.log('Día indeterminado....');
+        console.log('El día ' + dia + ' es indeterminado....');
 }
+```
+Salida:
+```
+El día 5 es viernes
+El día 2 es martes
+El día 4 es jueves
+El día 9 es indeterminado....
 ```
 
 ## Ciclos o loops                                                                                              03:01
