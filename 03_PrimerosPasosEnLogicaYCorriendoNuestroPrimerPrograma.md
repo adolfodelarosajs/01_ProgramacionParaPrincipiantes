@@ -137,6 +137,10 @@ Si también quisiera ver el mensaje en la consola del navegador tengo que hacer 
 </html>
 ```
 
+Salida:
+
+`Hola Mundo!`
+
 ## Problema: Convertir de grados Fahrenheit a Celsius                                                          04:01
 
 La fórmula para hacer la conversión es la siguiente:
