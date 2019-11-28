@@ -307,6 +307,7 @@ class Carro{
 //Instanciando la clase Carro
 let carro = new Carro('Mazda', 'Sedan', 2);
 
+carro.realizarViaje(70);
 console.log(carro);
 carro.encenderCarro();
 console.log(carro);
@@ -318,6 +319,7 @@ carro.realizarViaje(50);
 ```
 Salida:
 ```
+Debes encender primero el carro.
 Carro {marca: "Mazda", tipo: "Sedan", puertas: 2, creado: "Hoy", encendido: false, …}
 El carro esta encendido
 Carro {marca: "Mazda", tipo: "Sedan", puertas: 2, creado: "Hoy", encendido: true, …}
