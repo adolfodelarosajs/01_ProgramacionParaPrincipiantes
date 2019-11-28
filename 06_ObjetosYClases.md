@@ -7,15 +7,15 @@
 
 **Objeto:** Representación abstracta de una cosa de la vida real.
 
-Los objetos son variables que dentro de sí tienen propiedades.
+Los objetos son variables que dentro de sí tienen propiedades. Básicamente un objeto nos permite agrupar una serie de propiedades que tienen una relación entre sí.
 
 ```js
 let carro = {
-	color: 'blanco',
-	traccion: '4x4',
-	llantas: 4,
-	puertas: 5,
-	marca:'Mitsubishi'
+  color: 'blanco',
+  traccion: '4x4',
+  llantas: 4,
+  puertas: 5,
+  marca:'Mitsubishi'
 }
 
 carro.color; //blanco
@@ -28,20 +28,68 @@ Para acceder a las propiedades de un objeto usamos la notación de punto.
 
 ```js
 let persona = {
-	nombre: 'Fernando',
-	edad: 32,
-	estatura: 1.79
+  nombre: 'Salma',
+  edad: 32,
+  estara: 1.65
 }
 
-function describirPersona( p) {
-	console.log( `${ p.nombre } tiene una edad de ${ p.edad } y mide ${ p.estatura}`); //Fernando tiene una edad de 32 y mide 1.79
+console.log(persona);
+```
+Salida:
+```
+Object {nombre: "Salma", edad: 32, estatura: 1.65}
+  edad: 32
+  estatura: 1.65
+  nombre: "Salma"
+  __proto__: Object
+```
+Para acceder a cada una de las propiedades del objeto uso la *notación de punto* 
+```js
+console.log(persona.nombre);
+console.log(persona.edad);
+console.log(persona.estatura);
+```
+salida
+```
+Salma
+32
+1.65
+```
+
+Vamoa a crear una función que reciba un parámetro persona y escriba una frase como esta: "Salma tiene una edad de 32 años y mide 1.65"
+para crear esta frase podríamos concatenar la cadena o usar la nueva forma de crear oraciones con el backtick(`).
+
+```js
+function describirPersona(p){
+  console.log(`${ p.nombre } tiene una edad de ${ p.edad } y mide ${ p.estatura }`);
 }
 
-console.log(persona); //{nombre: "Fernando", edad: 32, estatura: 1.79}
-console.log(persona.nombre); //Fernando
-console.log(persona.edad); //32
+//Objeto persona
+let persona = {
+  nombre: 'Salma',
+  edad: 32,
+  estatura: 1.65
+}
 
 describirPersona(persona);
+
+console.log(persona);
+console.log(persona.nombre);
+console.log(persona.edad);
+console.log(persona.estatura);
+```
+Salida
+```
+Salma tiene una edad de 32 y mide 1.65
+{nombre: "Salma", edad: 32, estatura: 1.65}
+  edad: 32
+  estatura: 1.65
+  nombre: "Salma"
+  __proto__: Object
+
+Salma
+32
+1.65
 ```
 
 ## Arreglos de objetos
