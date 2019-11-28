@@ -166,9 +166,9 @@ Las clases también tienen propiedades como los objetos.
 
 ```
 class Galleta {
-	sabor
-	forma
-	fechaCreacion
+  sabor
+  forma
+  fechaCreacion
 }
 ```
 
@@ -176,16 +176,18 @@ Todas las clases tienen una función interna llamada **constructor**, cuando se 
 
 ```
 class Galleta{
-	constructor(forma, sabor){
-		this.forma = forma;
-		this.sabor = sabor;
-		this.fechaCreacion = 'HOY'
-	}
-	
+  constructor(forma, sabor){
+    this.forma = forma;
+    this.sabor = sabor;
+    this.fechaCreacion = 'HOY'
+  }	
 }
 ```
+En este caso `this` hace referencia a la misma clase, lo que se esta diciendo es que la clase Galleta tiene tres propiedades (las marcadas con this) **forma**, **sabor** y **fechaCreacion** y que su valor para las dos primera es lo que se mande como parámetro para la tercera propiedad se tomará la fecha de HOY.
 
-Una clase además  de tener propiedades también puede tener **Métodos** que son funciones relacionadas a la clase. Y cualquier variable que sea una instancia de la clase, tendrá esas funciones.
+La anterior definición de clase Galleta será el molde para crear objetos de tipo Galleta.
+
+Una clase además de tener propiedades también puede tener **Métodos** que son funciones relacionadas a la clase. Y cualquier variable que sea una instancia de la clase, tendrá esas funciones.
 
 Por ejemplo, podemos tener una clase **Carro** el cual puede tener las siguientes propiedades y métodos.
 
@@ -211,34 +213,42 @@ new Carro('Jeep');
 
 ## Ejercicio práctico - Clases
 
+JS nos permite crear Objetos sin tener una clase definina, si quisieramos tener 1000 objetos diferentes tendríamos que duplicar el código 1000 y cambiar sus valores independietes, si necesitaramos añadir una propiedad más tendríamos que hacerlo en cada uno de los 1000 objetos ya creado. Dado este problema es mejor crear un molde que represente ese objeto es decir una clase y a partir de allí generar todos los objetos necesarios, veamos el ejemplo.
+
 ```js
 //Creando un objeto carro1
 let carro1 = {
-	marca: 'Toyota',
-	tipo: 'Sedan',
-	puertas: 3,
-	creado: 'Hoy'
+  marca: 'Toyota',
+  tipo: 'Sedan',
+  puertas: 3,
+  creado: 'Hoy'
 }
 
 //Creando una clase Carro
 class Carro{
-	constructor(marca, tipo, puertas){
-		this.marca = marca;
-		this.tipo = tipo;
-		this.puertas = puertas;
-		this.creado = 'Hoy'
-	}
+  constructor(marca, tipo, puertas){
+    this.marca = marca;
+    this.tipo = tipo;
+    this.puertas = puertas;
+    this.creado = 'Hoy'
+  }
 }
 
 //Instanciando la clase Carro
-let carro2 = new Carro('Masda', 'Sedan', 2);
+let carro2 = new Carro('Mazda', 'Sedan', 2);
+let carro3 = new Carro('VW', 'Sedan', 2);
 
-console.log(carro1); //{marca: "Toyota", tipo: "Sedan", puertas: 3, creado: "Hoy"}
-console.log(carro2); //Carro {marca: "Masda", tipo: "Sedan", puertas: 2, creado: "Hoy"}
-
+console.log(carro1); 
+console.log(carro2); 
+console.log(carro3); 
 ```
-
-Observe que uno es un objeto y otro es una instancia de la clase Carro.
+Salida:
+```
+{marca: "Toyota", tipo: "Sedan", puertas: 3, creado: "Hoy"}
+Carro {marca: "Mazda", tipo: "Sedan", puertas: 2, creado: "Hoy"}
+Carro {marca: "VW", tipo: "Sedan", puertas: 2, creado: "Hoy"}
+```
+Observe que el primero es un objeto y los otros dos son instancia de la clase `Carro`, se parecen pero no son lo mismo. Si necesitara añadir una propiedad simplemente la agrego a la clase y todos sus instancias ya tendrían esa propiedad, en cambio con los objetos necesitaria añadirla a cada uno de ellos.
 
 ## Métodos de clase
 
