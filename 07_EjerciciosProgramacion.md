@@ -187,7 +187,7 @@ let heroes = ['Doom', 'Dr. Strange', 'Hulk', 'She Hulk', 'Spiderman','Captain Ma
 
 let heroesCon = filtrarPorLetra(heroes, 'S');
 
-console.log(heroesCon); //Profesor Charles Xavier
+console.log(heroesCon); 
 ```
 Salida:
 ```
