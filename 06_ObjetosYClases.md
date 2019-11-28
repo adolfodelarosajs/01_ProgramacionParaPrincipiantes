@@ -81,6 +81,7 @@ console.log(persona.estatura);
 Salida
 ```
 Salma tiene una edad de 32 y mide 1.65
+
 {nombre: "Salma", edad: 32, estatura: 1.65}
   edad: 32
   estatura: 1.65
@@ -95,34 +96,56 @@ Salma
 ## Arreglos de objetos
 
 ```js
-//Arreglo de Objetos
+//Objeto persona1
 let persona1 = {
-	nombre: 'Fernando',
-	edad: 32,
+  nombre: 'Salma',
+  edad: 32,
+  estatura: 1.65
 }
 
+//Objeto persona2
 let persona2 = {
-	nombre: 'Melissa',
-	edad: 27,
+  nombre: 'Gina',
+  edad: 38,
+  estatura: 1.71
 }
 
+//Objeto persona3
 let persona3 = {
-	nombre: 'Juan',
-	edad: 40,
+  nombre: 'Vicky',
+  edad: 39,
+  estatura: 1.62
 }
 
+//Declaración del Array de personas
 let personas = [persona1, persona2, persona3];
 
-console.log(personas); 
-   //(3) [{…}, {…}, {…}]
-	    //0: {nombre: "Fernando", edad: 32}
-	    //1: {nombre: "Melissa", edad: 27}
-      //2: {nombre: "Juan", edad: 40}
+console.log(personas);
+```
+Salida:
+```
+Array(3)
+  0: {nombre: "Salma", edad: 32, estatura: 1.65}
+  1: {nombre: "Gina", edad: 38, estatura: 1.71}
+  2: {nombre: "Vicky", edad: 39, estatura: 1.62}
+  length: 3
+  __proto__: Array(0)
+```
+Vamos a crear un ciclo for para imprimir todo nuestro array de personas y mostrar todos los datos de cada objeto:
 
-for( let i = 0; i < personas.length; i++){
-	console.log(`${ personas[i].nombre } -- ${ personas[i].edad }`);
+```js
+for(i=0; i<personas.length; i++){
+  let persona = personas[i];
+  console.log(`${persona.nombre} \t ${persona.edad} \t ${persona.estatura}`);
+  //Forma directa
+  //console.log(`${personas[i].nombre} \t ${personas[i].edad} \t ${personas[i].estatura}`);
 }
-
+```
+Salida:
+```
+Salma 	 32 	 1.65
+Gina 	 38 	 1.71
+Vicky 	 39 	 1.62
 ```
 
 ## Explicación sobre las clases
