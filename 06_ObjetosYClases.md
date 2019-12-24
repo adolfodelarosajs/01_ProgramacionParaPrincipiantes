@@ -56,7 +56,10 @@ Salma
 1.65
 ```
 
-Vamoa a crear una función que reciba un parámetro persona y escriba una frase como esta: "Salma tiene una edad de 32 años y mide 1.65"
+
+### Uso de backtick(`)
+
+Vamos a crear una función que reciba un parámetro persona y escriba una frase como esta: "Salma tiene una edad de 32 años y mide 1.65"
 para crear esta frase podríamos concatenar la cadena o usar la nueva forma de crear oraciones con el backtick(`).
 
 ```js
